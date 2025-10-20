@@ -1,5 +1,7 @@
 # 🎨 DEADBEEF.nvim
 
+This theme is based on the [0xDEADBEEF VSCode theme](https://github.com/Prelly95/deadbeef) by [Patrick Prell](https://github.com/Prelly95)
+
 A dark, vibrant colorscheme for Neovim and Vim with rich accent colors and excellent syntax highlighting.
 
 <p align="center">
