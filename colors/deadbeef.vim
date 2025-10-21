@@ -6,7 +6,10 @@ if exists("syntax_on")
 	syntax reset
 endif
 
-set termguicolors
+" Ensure true color support
+if has("termguicolors")
+	set termguicolors
+endif
 set background=dark
 let g:colors_name = "deadbeef"
 

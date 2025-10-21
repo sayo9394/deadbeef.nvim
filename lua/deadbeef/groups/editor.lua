@@ -105,7 +105,7 @@ function M.get()
 		Conceal = { fg = C.overlay1 },
 		SpecialKey = { fg = C.overlay0 },
 		NonText = { fg = C.overlay0 },
-		EndOfBuffer = { fg = O.show_end_of_buffer and C.text or C.base },
+		EndOfBuffer = { fg = O.show_end_of_buffer and C.text or "NONE", bg = "NONE" },
 		Whitespace = { fg = C.overlay0 },
 
 		-- Health

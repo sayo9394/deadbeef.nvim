@@ -2,11 +2,11 @@ local M = {}
 
 function M.get()
 	return {
-		SnacksNormal = { fg = C.text, bg = C.surface0 },
-		SnacksBorder = { fg = C.overlay0, bg = C.surface0 },
-		SnacksTitle = { fg = C.text, bg = C.surface0, style = { "bold" } },
-		SnacksFooter = { fg = C.overlay0, bg = C.surface0 },
-		SnacksBackdrop = { fg = C.surface0, bg = C.surface0 },
+		SnacksNormal = { fg = C.text, bg = "NONE" },
+		SnacksBorder = { fg = C.overlay0, bg = "NONE" },
+		SnacksTitle = { fg = C.text, bg = "NONE", style = { "bold" } },
+		SnacksFooter = { fg = C.overlay0, bg = "NONE" },
+		SnacksBackdrop = { fg = C.surface0, bg = "NONE" },
 		
 		-- Notifier highlights
 		SnacksNotifierInfo = { fg = C.blue, bg = C.surface0 },
@@ -34,15 +34,15 @@ function M.get()
 		SnacksNotifierTraceIcon = { fg = C.mauve, bg = C.surface0 },
 		
 		-- Dashboard highlights
-		SnacksDashboard = { fg = C.text, bg = C.surface0 },
-		SnacksDashboardDesc = { fg = C.overlay0, bg = C.surface0 },
-		SnacksDashboardFile = { fg = C.blue, bg = C.surface0 },
-		SnacksDashboardDir = { fg = C.blue, bg = C.surface0 },
-		SnacksDashboardFooter = { fg = C.overlay0, bg = C.surface0 },
-		SnacksDashboardHeader = { fg = C.text, bg = C.surface0, style = { "bold" } },
-		SnacksDashboardIcon = { fg = C.mauve, bg = C.surface0 },
-		SnacksDashboardKey = { fg = C.teal, bg = C.surface0 },
-		SnacksDashboardTerminal = { fg = C.green, bg = C.surface0 },
+		SnacksDashboard = { fg = C.text, bg = "NONE" },
+		SnacksDashboardDesc = { fg = C.overlay0, bg = "NONE" },
+		SnacksDashboardFile = { fg = C.blue, bg = "NONE" },
+		SnacksDashboardDir = { fg = C.blue, bg = "NONE" },
+		SnacksDashboardFooter = { fg = C.overlay0, bg = "NONE" },
+		SnacksDashboardHeader = { fg = C.text, bg = "NONE", style = { "bold" } },
+		SnacksDashboardIcon = { fg = C.mauve, bg = "NONE" },
+		SnacksDashboardKey = { fg = C.teal, bg = "NONE" },
+		SnacksDashboardTerminal = { fg = C.green, bg = "NONE" },
 		
 		-- Lazygit integration
 		SnacksLazygit = { fg = C.text, bg = C.surface0 },
