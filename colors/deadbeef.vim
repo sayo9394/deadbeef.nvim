@@ -15,3 +15,7 @@ let g:colors_name = "deadbeef"
 
 " Load the Lua-based theme
 lua require("deadbeef").load()
+
+" Force background color explicitly for macOS compatibility
+lua vim.api.nvim_set_hl(0, "Normal", { fg = "#fce8c3", bg = "#292d3e" })
+lua vim.api.nvim_set_hl(0, "NormalNC", { fg = "#fce8c3", bg = "#292d3e" })

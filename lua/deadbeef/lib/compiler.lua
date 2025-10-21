@@ -60,11 +60,6 @@ function M.compile(user_options)
 			f:write(fmt("vim.api.nvim_set_hl(0, %q, %s)\n", group, vim.inspect(safe_highlight)))
 		end
 	end
-	
-	-- Ensure background is set explicitly for macOS compatibility
-	if theme.Normal and theme.Normal.bg then
-		f:write(fmt("vim.api.nvim_set_hl(0, 'Normal', {bg = %q})\n", theme.Normal.bg))
-	end
 	f:close()
 
 	return compiled_path .. deadbeef.path_sep .. basename
